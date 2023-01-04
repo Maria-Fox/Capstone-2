@@ -16,9 +16,16 @@ Optional: Bio, target goal, maybe a picture
 There is no existing API will the relevant data I need, therefore, I am creating a database w/ sample data and allowing users to add on as accounts are created. 
 
 7. 
-   A. Please see DBBreakdown for schema.
-   B. In creating the API securing the message feature will be important and may cause issues.
-   C. Yes, I need to secure the users password, and the messages to and from users.
-   D. App features will include CRUD + private message features to allow companies & early professionals to chat.
-   E. Stretch goals - allow include a "pairing" option. Business owners & early professionals can complete a form with key items they're looking for. Based on that input the app can show the companies/ users that match their goals.
+A. Please see DBBreakdown for schema.
+
+
+B. In creating the API securing the message feature will be important and may cause issues.
+
+
+C. Yes, I need to secure the users password, and the messages to and from users.
+
+
+D. App features will include CRUD + private message features to allow companies & early professionals to chat.
+
+E. Stretch goals - allow include a "pairing" option. Business owners & early professionals can complete a form with key items they're looking for. Based on that input the app can show the companies/ users that match their goals.
 
