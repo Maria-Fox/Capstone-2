@@ -10,7 +10,7 @@ BEGIN TRANSACTION QUICKDBD
 CREATE TABLE [users] (
     [username] text  NOT NULL ,
     [password] text  NOT NULL ,
-    [contact_num] int  NOT NULL ,
+    [contact_num] text  NOT NULL ,
     [contact_email] text  NOT NULL ,
     [type_of_user] text  NOT NULL ,
     [bio] text  NOT NULL ,
@@ -21,7 +21,7 @@ CREATE TABLE [users] (
 
 CREATE TABLE [company_requests] (
     [request_id] int  NOT NULL ,
-    [co_usernane] int  NOT NULL ,
+    [co_usernane] text  NOT NULL ,
     [project_desc] text  NOT NULL ,
     [timeframe] text  NOT NULL ,
     [searching_for_professional] text  NOT NULL ,
@@ -32,8 +32,8 @@ CREATE TABLE [company_requests] (
 
 CREATE TABLE [likes] (
     [id] int  NOT NULL ,
-    [liker_username] int  NOT NULL ,
-    [liked_username] int  NOT NULL ,
+    [liker_username] text  NOT NULL ,
+    [liked_username] text  NOT NULL ,
     CONSTRAINT [PK_likes] PRIMARY KEY CLUSTERED (
         [id] ASC
     )
